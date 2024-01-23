@@ -23,7 +23,7 @@ export const StyledLogoWrapper = styled.div<{ fail?: boolean }>`
   animation: ${({ fail }) =>
         fail
             ? css`
-          ${hangAndFallAnimation} 2s linear forwards
+          ${hangAndFallAnimation} 1s ease-in-out forwards
         `
             : 'none'};`
 
